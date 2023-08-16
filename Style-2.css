@@ -1,0 +1,158 @@
+
+
+
+.container_of_classes {
+    background-color: #111111;
+    margin: 0rem;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  
+  .container_of_classes .container1 {
+  
+  text-transform: capitalize;
+    border-radius: 2.5rem;
+  border: 2px solid black;
+      margin: 5rem 1rem 2.5rem 1rem ;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  color: white; 
+     text-align: center;
+    height: 20vh;
+    width: 30%;
+  background-color: #222222; 
+   padding: 1.3rem;
+  }
+  .container_of_classes .container1:hover {
+    color: #111111;
+    transition: 0.5s;
+        transform: scale(.95);
+        box-shadow: 0rem 0rem 1.3rem rgba(14, 53, 132, 0.361);
+        background-color: #7fffd4;
+    }
+    .paragraph_2:hover{
+      color: black;
+    }
+    .paragraph_2{
+      color: white;
+      font-size: 1.7rem;
+    }
+    .container_of_classes .container  h1{
+      text-align: center;
+        font-size: 2.2rem;
+        font-weight: 300;
+        white-space: nowrap;
+    }
+    
+   
+  
+    /* .log{
+      margin: 2rem;
+    } */
+  
+  .log img
+  {
+  
+    position: relative;
+    top:2rem;
+    left: -10rem;
+    width:30rem;
+    height: 25rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width: 900px) {
+    .container_of_classes .container1 .heading {
+        font-size: 2rem;
+    }
+  
+  }
+  
+  @media(max-width: 650px) {
+  
+    .container_of_classes .container1 .heading {
+        font-size: 1.8rem;
+    }
+  
+    
+  
+    
+  
+    .container_of_classes .container1 .paragraph_1 {
+        margin-top: 2rem;
+        line-height: 2rem;
+        font-size:1.2rem;
+    }
+  
+    
+  }
+  
+  @media(max-width: 450px) {
+    .container_of_classes {
+        flex-direction: column;
+    }
+  
+    .container_of_classes .container1  {
+        width: 70%;
+    }
+  
+    
+  
+    .container_of_classes .container1 .heading {
+      font-size: 3rem;
+  }
+  
+    .container_of_classes .container1 .paragraph_2 {
+  
+      font-size:1.8rem;
+  
+    }
+  
+  
+    .log img
+  {
+  
+    position: relative;
+    top:2rem;
+    left: -10rem;
+    width:30rem;
+    height: 25rem;
+  }
+  .log img {
+  
+    width: 25rem;
+    height: 20rem;
+  }
+      .footer-icons{
+    font-size: 1.3rem;
+    }
+    
+    .footer-logos {
+      margin:0rem;
+        color: #f0f0f0;
+        
+        
+      }
+    .foot{
+  
+      height: 40vh;
+      background-color: #222222d6;
+    }
+  
+  
+  
+  }
+  
